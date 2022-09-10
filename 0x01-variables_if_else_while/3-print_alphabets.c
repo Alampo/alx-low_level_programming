@@ -9,9 +9,9 @@ int main(void)
 {
 	char alp;
 
-	alp = 'a';
-
 	char ch;
+
+	alp = 'a';
 
 	ch = 'A';
 
