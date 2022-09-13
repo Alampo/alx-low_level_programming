@@ -4,7 +4,7 @@
   * print_last_digit - Prints last digit
   *
   * @n: Input number as an integer
-  * Return: Last digit of a number
+  * Return: Last digit
   */
 int print_last_digit(int n)
 {
@@ -20,4 +20,5 @@ int print_last_digit(int n)
 	{
 		_putchar(l + 48);
 		return (l);
+	}
 }
