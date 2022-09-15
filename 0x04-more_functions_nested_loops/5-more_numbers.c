@@ -19,7 +19,6 @@ void more_numbers(void)
 			if (0 == 49)
 			{
 				for (p = 48; p <= 52; p++)
-					_putchar(i);
 					_putchar(n);
 					_putchar(o);
 					_putchar(p);
