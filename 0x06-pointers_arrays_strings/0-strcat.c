@@ -20,10 +20,13 @@ char *_strcat(char *dest, char *src)
 	{
 		src_len++;
 	}
+	if (str_len > 0)
+	{
 	for (i = 0; i < src_len; i++)
 	{
 		dest[destIndex] = *src[i];
 		destIndex++;
+	}
 	}
 		dest[destIndex] = '\0'
 	return (dest);
