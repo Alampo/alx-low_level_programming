@@ -3,16 +3,17 @@
 /**
   **string_toupper - converts a string to upper case
   *
-  *@s: string to be converted
+  *
   *
   *
   *Return: converted string s
   *
   *
   */
-char *string_toupper(char *s)
+char *string_toupper(char *)
 {
 	int count = 0;
+	char s = *;
 
 	while (*(s + count) != '\0')
 	{
