@@ -12,11 +12,11 @@ char *_strcat(char *dest, char *src)
 {
 	int destIndex = 0, src_len = 0, i;
 
-	while (*dest != '\0')
+	while (dest[destIndex] != '\0')
 	{
 		destIndex++;
 	}
-	while (*src != '\0')
+	while (src[src_len] != '\0')
 	{
 		src_len++;
 	}
@@ -27,6 +27,6 @@ char *_strcat(char *dest, char *src)
 		dest[destIndex] = src[i];
 		destIndex++;
 	}
-		dest[destIndex] = '\0';
+	dest[destIndex] = '\0';
 	return (dest);
 }
