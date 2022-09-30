@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
   *main - returns multiplication of two numbers
@@ -6,7 +7,7 @@
   *@argc: number of command line arguments
   *@argv: sn array that contains all command line arguments
   *
-  *Return: 1 if an error, 0 if successfull
+  *Return: 0 - success
   */
 int main(int argc, char *argv[])
 {
