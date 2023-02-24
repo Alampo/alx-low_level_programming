@@ -18,6 +18,6 @@ int main(void)
 			fp--;
 		}
 	}
-	prinf("%ld\n", fp);
+	printf("%ld\n", fp);
 	return (0);
 }
