@@ -2,26 +2,21 @@
 
 /**
   **string_toupper - converts a string to upper case
-  *
-  *
-  *
-  *
+  *@s: input string
   *Return: converted string s
-  *
-  *
   */
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int count = 0;
 
 
-	while (* + count != '\0')
+	while (*(s + count) != '\0')
 	{
 
-		if (* + count >= 97) && (* + count <= 122)
-			*(s + count) = (* + count) - 32;
-			count++;
+		if ((*(s + count) >= 97) && (*(s + count) <= 122))
+			*(s + count) = *(s + count) - 32;
+		count++;
 	}
 
-	return (*);
+	return (s);
 }
